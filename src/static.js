@@ -1,263 +1,253 @@
 const daneKino = [
   {
-    city: ' Be�chat�w',
+    city: 'Bełchatów',
     name: 'HELIOS',
     odzial: 'Galeria Olimpia'
   },
   {
-    city: ' Bia�ystok',
+    city: 'Białystok',
     name: 'HELIOS',
-    odzial: ' Bia�ystok�Atrium Bia�a'
+    odzial: 'Białystok Atrium Biała'
   },
   {
-    city: ' Bia�ystok',
+    city: 'Białystok',
     name: 'HELIOS',
-    odzial: ' Bia�ystok�Alfa Centrum'
+    odzial: 'Białystok Alfa Centrum'
   },
   {
-    city: ' Bia�ystok',
+    city: ' Białystok',
     name: 'HELIOS',
-    odzial: ' Bia�ystok�Galeria Jurowiecka'
+    odzial: ' Białystok Galeria Jurowiecka'
   },
   {
-    city: ' Bielsko-Bia�a',
+    city: 'Bielsko-Biała',
     name: 'HELIOS',
     odzial: 'Galeria Sfera'
   },
   {
-    city: ' Bydgoszcz',
+    city: 'Bydgoszcz',
     name: 'HELIOS',
     odzial: 'Galeria Pomorska'
   },
   {
-    city: ' D�browa G�rnicza',
+    city: 'Dąbrowa Górnicza',
     name: 'HELIOS',
     odzial: 'CH Pogoria'
   },
   {
-    city: ' Gda�sk',
+    city: 'Gdańsk',
     name: 'HELIOS',
     odzial: 'Alfa Centrum'
   },
   {
-    city: ' Gda�sk',
+    city: 'Gdańsk',
     name: 'HELIOS',
     odzial: 'Galeria Metropolia'
   },
   {
-    city: ' Gda�sk�',
+    city: 'Gdańsk',
     name: 'HELIOS',
-    odzial: 'Forum Gda�sk�'
+    odzial: 'Forum Gdański'
   },
   {
-    city: ' Gdynia�',
+    city: 'Gdynia',
     name: 'HELIOS',
     odzial: 'Centrum Handlowe Riviera'
   },
   {
-    city: ' Gniezno�',
+    city: 'Gniezno',
     name: 'HELIOS',
     odzial: 'Galeria Gniezno'
   },
   {
-    city: ' Gorz�w Wielkopolski�',
+    city: ' Gorzów Wielkopolski',
     name: 'HELIOS',
     odzial: 'Galeria Askana'
   },
   {
-    city: ' Grudzi�dz�',
+    city: 'Grudzidz',
     name: 'HELIOS',
     odzial: 'Galeria Alfa'
   },
   {
-    city: ' Jelenia G�ra�',
+    city: 'Jelenia Góra',
     name: 'HELIOS',
     odzial: 'Galeria Sudecka'
   },
   {
-    city: ' Kalisz�',
+    city: 'Kalisz',
     name: 'HELIOS',
     odzial: 'Galeria Amber'
   },
   {
-    city: ' Katowice�',
+    city: 'Katowice',
     name: 'HELIOS',
     odzial: 'Galeria Libero '
   },
   {
-    city: ' K�dzierzyn-Ko�le�',
+    city: 'Kędzierzyn-Koźle ',
     name: 'HELIOS',
     odzial: 'Galeria Odrza�skie Ogrody'
   },
   {
-    city: ' Kielce�',
+    city: 'Kielce',
     name: 'HELIOS',
-    odzial: 'Galeria Echo�'
+    odzial: 'Galeria Echo'
   },
   {
-    city: ' Konin�',
+    city: 'Konin',
     name: 'HELIOS',
     odzial: 'Galeria Nad Jeziorem'
   },
   {
-    city: ' Krosno�',
+    city: 'Krosno',
     name: 'HELIOS',
     odzial: 'Galeria VIVO!'
   },
   {
-    city: ' Legionowo�',
+    city: 'Legionowo',
     name: 'HELIOS',
     odzial: 'Galeria Gondola '
   },
   {
-    city: ' Legnica�',
+    city: 'Legnica',
     name: 'HELIOS',
-    odzial: 'Galeria Piast�w'
+    odzial: 'Galeria Piastów'
   },
   {
-    city: ' Lubin�',
+    city: 'Lubin',
     name: 'HELIOS',
     odzial: 'Cuprum Arena'
   },
   {
-    city: ' ��d��',
+    city: 'Łódź',
     name: 'HELIOS',
     odzial: 'CH-R Sukcesja'
   },
   {
-    city: ' Nowy S�cz�',
-    name: 'HELIOS',
-    odzial: 'Galeria Trzy-Korony'
-  },
-  {
-    city: ' Olsztyn�',
+    city: 'Olsztyn',
     name: 'HELIOS',
     odzial: 'Aura Centrum Olsztyna'
   },
   {
-    city: ' Opole�',
+    city: 'Opole',
     name: 'HELIOS',
     odzial: 'Centrum Handlowe Karolina'
   },
   {
-    city: ' Opole�',
+    city: 'Opole',
     name: 'HELIOS',
     odzial: 'Solaris Center'
   },
   {
-    city: ' Ostr�w Wielkopolski ',
+    city: 'Ostrów Wielkopolski ',
     name: 'HELIOS',
     odzial: 'Galeria Ostrovia'
   },
   {
-    city: ' Pabianice�',
+    city: 'Pabianice',
     name: 'HELIOS',
     odzial: 'Galeria Tkalnia'
   },
   {
-    city: ' Pi�a�',
+    city: 'Piotrków Trybunalski',
     name: 'HELIOS',
-    odzial: 'Atrium Kasztanowa'
+    odzial: 'Focus Mall'
   },
   {
-    city: ' Piotrk�w Trybunalski�',
+    city: 'Płock',
     name: 'HELIOS',
-    odzial: 'Focus Mall�'
+    odzial: 'Galeria Wisła'
   },
   {
-    city: ' P�ock�',
-    name: 'HELIOS',
-    odzial: 'Galeria Wis�a'
-  },
-  {
-    city: ' Pozna��',
+    city: 'Poznań',
     name: 'HELIOS',
     odzial: 'Galeria Posnania'
   },
   {
-    city: ' Przemy�l�',
+    city: 'Przemysl',
     name: 'HELIOS',
     odzial: 'Galeria Sanowa '
   },
   {
-    city: ' Radom�',
+    city: 'Radom',
     name: 'HELIOS',
     odzial: 'Radom'
   },
   {
-    city: ' Rzesz�w�',
+    city: 'Rzeszów',
     name: 'HELIOS',
-    odzial: 'Rzesz�w'
+    odzial: 'Rzeszów'
   },
   {
-    city: ' Rzesz�w�',
+    city: 'Rzeszów',
     name: 'HELIOS',
-    odzial: 'Galeria Rzesz�w'
+    odzial: 'Galeria Rzeszów'
   },
   {
-    city: ' Siedlce�',
+    city: 'Siedlce',
     name: 'HELIOS',
     odzial: 'Galeria Siedlce'
   },
   {
-    city: ' Sosnowiec�',
+    city: 'Sosnowiec',
     name: 'HELIOS',
     odzial: 'Sosnowiec'
   },
   {
-    city: ' Stalowa Wola�',
+    city: 'Stalowa Wola',
     name: 'HELIOS',
     odzial: 'Galeria VIVO'
   },
   {
-    city: ' Starachowice�',
+    city: 'Starachowice',
     name: 'HELIOS',
     odzial: 'Centrum Galardia'
   },
   {
-    city: ' Szczecin�',
+    city: 'Szczecin',
     name: 'HELIOS',
     odzial: 'DK Kupiec'
   },
   {
-    city: ' Szczecin�',
+    city: 'Szczecin',
     name: 'HELIOS',
     odzial: 'Outlet Park'
   },
   {
-    city: ' Tczew�',
+    city: 'Tczew',
     name: 'HELIOS',
     odzial: 'Galeria Koci'
   },
   {
-    city: ' Tomasz�w Mazowiecki�',
+    city: 'Tomaszów Mazowiecki',
     name: 'HELIOS',
-    odzial: 'Galeria Tomasz�w�? 4 sale,'
+    odzial: 'Galeria Tomaszów? 4 sale,'
   },
   {
-    city: ' Warszawa�',
+    city: 'Warszawa',
     name: 'HELIOS',
-    odzial: 'Blue city�? 8 s'
+    odzial: 'Blue city'
   },
   {
-    city: ' Wo�omin�',
+    city: 'Wołomin',
     name: 'HELIOS',
-    odzial: 'Fabryka Wo�omi'
+    odzial: 'Fabryka Wołomi'
   },
   {
-    city: ' Wroc�aw�',
+    city: 'Wrocław',
     name: 'HELIOS',
-    odzial: 'Magnolia Park�'
+    odzial: 'Magnolia Park'
   },
   {
-    city: ' Wroc�aw�',
+    city: 'Wrocław',
     name: 'HELIOS',
-    odzial: 'Bielany Wroc�a'
+    odzial: 'Bielany Wrocła'
   },
   {
-    city: ' �ory�',
+    city: 'Gory',
     name: 'HELIOS',
-    odzial: 'Galeria Wi�'
+    odzial: 'Galeria Wiła'
   },
   {
     city: 'WARSZAWA',
@@ -272,7 +262,7 @@ const daneKino = [
   {
     city: 'WARSZAWA',
     name: 'CINEMA city',
-    odzial: 'Galeria Mokot�w'
+    odzial: 'Galeria Mokotów'
   },
   {
     city: 'WARSZAWA',
@@ -292,30 +282,30 @@ const daneKino = [
   {
     city: 'WARSZAWA',
     name: 'CINEMA city',
-    odzial: 'Bia�o��ka Galeria P��nocna'
+    odzial: 'Białołęka Galeria Północna'
   },
   {
-    city: 'KRAK�W',
+    city: 'KRAKÓW',
     name: 'CINEMA city',
     odzial: 'Zakopianka'
   },
   {
-    city: 'KRAK�W',
+    city: 'KRAKÓW',
     name: 'CINEMA city',
     odzial: 'Galeria Kazimierz'
   },
   {
-    city: 'KRAK�W',
+    city: 'KRAKÓW',
     name: 'CINEMA city',
     odzial: 'Bonarka city Center'
   },
   {
-    city: 'POZNA�',
+    city: 'POZNAŃ',
     name: 'CINEMA city',
-    odzial: 'Pozna� Plaza'
+    odzial: 'Poznań Plaza'
   },
   {
-    city: 'POZNA�',
+    city: 'POZNAŃ',
     name: 'CINEMA city',
     odzial: 'Kinepolis'
   },
@@ -340,17 +330,17 @@ const daneKino = [
     odzial: 'FELIcity'
   },
   {
-    city: 'CZ�STOCHOWA',
+    city: 'CZĘSTOCHOWA',
     name: 'CINEMA city',
-    odzial: 'Wolno��'
+    odzial: 'Wolno'
   },
   {
-    city: 'CZ�STOCHOWA',
+    city: 'CZĘSTOCHOWA',
     name: 'CINEMA city',
     odzial: 'Galeria Jurajska'
   },
   {
-    city: '��D�',
+    city: 'ŁÓDŹ',
     name: 'CINEMA city',
     odzial: 'MANUFAKTURA'
   },
@@ -385,14 +375,14 @@ const daneKino = [
     odzial: 'Stara Kablownia'
   },
   {
-    city: 'Elbl�g',
+    city: 'Elbląg',
     name: 'Multikino',
     odzial: 'Centrum Handlowe Ogrody'
   },
   {
-    city: 'Gda�sk',
+    city: 'Gdańsk',
     name: 'Multikino',
-    odzial: 'Gda�sk'
+    odzial: 'Gdańsk'
   },
   {
     city: 'Jaworzno',
@@ -415,9 +405,9 @@ const daneKino = [
     odzial: 'Atrium Koszalin'
   },
   {
-    city: 'Krak�w',
+    city: 'Kraków',
     name: 'Multikino',
-    odzial: 'Krak�w'
+    odzial: 'Kraków'
   },
   {
     city: 'Lublin',

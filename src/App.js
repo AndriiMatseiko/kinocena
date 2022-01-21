@@ -23,16 +23,23 @@ const App = () => {
               <Offcanvas.Title id="offcanvasNavbarLabel">Tanie Kino</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Row xs={12}>
+            <Row xs={12}>
                 <Col sm={12}>
-                  <label for="filmDate">Film Date:</label> <input type="date" id="filmDate" name="filmDate" />
+                  <time datetime="2022-01-22 09:00">Dziś: 22 stycznia 2022</time>
                 </Col>
               </Row>
               <Row xs={12}>
                 <Col sm={12}>
+                  <label for="filmDate">Na kiedy sprawdzamy ? </label> <input type="date" id="filmDate" name="filmDate" />
+                </Col>
+              </Row>
+              
+              <Row xs={12}>
+                <Col sm={12}>
+                  <label for="City">A możliwe jeszcze podamy miasto ? </label>
                   <Form.Select size="sm">
-                    <option>Open this select City</option>
-                    {daneKino.map(({ city }, index) => (
+                    <option>Miasto</option>
+                    {daneKino.map(({ city}, index) => (
                       <option value={index + 1}>{city}</option>
                     ))}
                   </Form.Select>
@@ -54,23 +61,33 @@ const App = () => {
       </Navbar>
       {!isLoading ? (
         <>
+          <h1>
+          <Badge bg="secondary">Spójrz i wież bilet do Kina</Badge>
+          </h1>
           <h3>
             <Badge bg="secondary">Helios</Badge>
           </h3>
           <Tables filmy={filmyHelios} />
+          
           <h3>
-            <Badge bg="secondary">Multy Kino</Badge>
+            <Badge bg="secondary">MultiKino</Badge>
           </h3>
           <Tables filmy={filmyMultiKino} />
+
           <h3>
             <Badge bg="secondary">Cinema City</Badge>
           </h3>
           <Tables filmy={filmyCinemaCity} />
+          
         </>
       ) : (
         <Spinner animation="border" variant="danger" />
       )}
+      
+       
     </div>
+
+    
   )
 }
 
