@@ -1,8 +1,8 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 
-const Tables = ({ filmy }) => {
-  console.log({})
+const Tables = ({ filmy,kinoteater }) => {
+
   return (
     <Table striped bordered size="sm" responsive>
       <thead>
@@ -18,7 +18,10 @@ const Tables = ({ filmy }) => {
         {filmy.map(({ nameFilm, day }, index) => (
           <tr>
             <td>{index}</td>
-            <td>{nameFilm}</td>
+            <td><a  href={kinoteater ==='helios' ? 'https://www.helios.pl':kinoteater ==='multikino'?'https://multikino.pl':'https://www.cinema-city.pl'}
+            target="_blank"
+          
+            rel="noreferrer">{nameFilm}</a></td>
             {day.map(({ price }) => (
               <td>{price}</td>
             ))}

@@ -1,418 +1,133 @@
 const daneKino = [
   {
-    city: 'Bełchatów',
-    name: 'HELIOS',
-    odzial: 'Galeria Olimpia'
+    city: "Bełchatów",
+    lat: 51.36883,
+   lng: 19.3567100
   },
   {
-    city: 'Białystok',
-    name: 'HELIOS',
-    odzial: 'Białystok Atrium Biała'
+    city: "Białystok",
+    lat: 53.13333,
+   lng: 23.1643300
   },
   {
-    city: 'Białystok',
-    name: 'HELIOS',
-    odzial: 'Białystok Alfa Centrum'
+    city: " ielsko-Biała",
+    lat: 49.82245,
+   lng: 19.0468600
   },
   {
-    city: ' Białystok',
-    name: 'HELIOS',
-    odzial: ' Białystok Galeria Jurowiecka'
+    city: "Bydgoszcz",
+    lat: 53.1235,
+   lng: 18.0076200
   },
   {
-    city: 'Bielsko-Biała',
-    name: 'HELIOS',
-    odzial: 'Galeria Sfera'
+    city: "Dóbrowa Górnicza",
+    lat: 50.31818,
+   lng: 19.2374000
   },
   {
-    city: 'Bydgoszcz',
-    name: 'HELIOS',
-    odzial: 'Galeria Pomorska'
+    city: "Gdańsk",
+    lat: 54.35205,
+   lng: 18.6463700
   },
   {
-    city: 'Dąbrowa Górnicza',
-    name: 'HELIOS',
-    odzial: 'CH Pogoria'
+    city: "Gniezno",
+    lat: 52.53481,
+   lng: 17.5825900
   },
   {
-    city: 'Gdańsk',
-    name: 'HELIOS',
-    odzial: 'Alfa Centrum'
+    city: "Gorzów Wielkopolski",
+    lat: 52.73679,
+   lng: 15.2287800
   },
   {
-    city: 'Gdańsk',
-    name: 'HELIOS',
-    odzial: 'Galeria Metropolia'
+    city: "Grudzidz",
+    lat: 53.48411,
+   lng: 18.7536600
   },
   {
-    city: 'Gdańsk',
-    name: 'HELIOS',
-    odzial: 'Forum Gdański'
+    city: "Jelenia Góra",
+    lat: 50.89973,
+   lng: 15.7289900
   },
   {
-    city: 'Gdynia',
-    name: 'HELIOS',
-    odzial: 'Centrum Handlowe Riviera'
+    city: "Kalisz",
+    lat: 51.76109,
+   lng: 18.0910200
   },
   {
-    city: 'Gniezno',
-    name: 'HELIOS',
-    odzial: 'Galeria Gniezno'
+    city: "Katowice",
+    lat: 50.25841,
+   lng: 19.0275400
   },
   {
-    city: ' Gorzów Wielkopolski',
-    name: 'HELIOS',
-    odzial: 'Galeria Askana'
+    city: "Kielce",
+    lat: 50.87033,
+   lng: 20.6275200
   },
   {
-    city: 'Grudzidz',
-    name: 'HELIOS',
-    odzial: 'Galeria Alfa'
+    city: "Konin",
+    lat: 52.22338,
+   lng: 18.2512100
   },
   {
-    city: 'Jelenia Góra',
-    name: 'HELIOS',
-    odzial: 'Galeria Sudecka'
+    city: "Łódź",
+    lat: 51.75,
+   lng: 19.4666700
   },
   {
-    city: 'Kalisz',
-    name: 'HELIOS',
-    odzial: 'Galeria Amber'
+    city: "Olsztyn",
+    lat: 53.77995,
+   lng: 20.4941600
   },
   {
-    city: 'Katowice',
-    name: 'HELIOS',
-    odzial: 'Galeria Libero '
+    city: "Opole",
+    lat: 50.67211,
+   lng: 17.9253300
   },
   {
-    city: 'Kędzierzyn-Koźle ',
-    name: 'HELIOS',
-    odzial: 'Galeria Odrza�skie Ogrody'
+    city: "Poznań",
+    lat: 52.40692,
+   lng: 16.9299300
   },
   {
-    city: 'Kielce',
-    name: 'HELIOS',
-    odzial: 'Galeria Echo'
+    city: "Rzeszów",
+    lat: 50.04132,
+   lng: 21.9990100
   },
   {
-    city: 'Konin',
-    name: 'HELIOS',
-    odzial: 'Galeria Nad Jeziorem'
+    city: "Siedlce",
+    lat: 52.16772,
+   lng: 22.2900600
   },
   {
-    city: 'Krosno',
-    name: 'HELIOS',
-    odzial: 'Galeria VIVO!'
+    city: "Sosnowiec",
+    lat: 50.28682,
+   lng: 19.1038500
   },
   {
-    city: 'Legionowo',
-    name: 'HELIOS',
-    odzial: 'Galeria Gondola '
+    city: "Warszawa",
+    lat: 52.22977,
+   lng: 21.0117800
   },
   {
-    city: 'Legnica',
-    name: 'HELIOS',
-    odzial: 'Galeria Piastów'
+    city: "Wrocław",
+    lat: 51.1,
+   lng: 17.0333300
   },
   {
-    city: 'Lubin',
-    name: 'HELIOS',
-    odzial: 'Cuprum Arena'
+    city: "Częstochowe",
+    lat: 50.79646,
+   lng: 19.1240900
   },
   {
-    city: 'Łódź',
-    name: 'HELIOS',
-    odzial: 'CH-R Sukcesja'
+    city: "Kraków",
+    lat: 50.06143,
+   lng: 19.9365800
   },
   {
-    city: 'Olsztyn',
-    name: 'HELIOS',
-    odzial: 'Aura Centrum Olsztyna'
-  },
-  {
-    city: 'Opole',
-    name: 'HELIOS',
-    odzial: 'Centrum Handlowe Karolina'
-  },
-  {
-    city: 'Opole',
-    name: 'HELIOS',
-    odzial: 'Solaris Center'
-  },
-  {
-    city: 'Ostrów Wielkopolski ',
-    name: 'HELIOS',
-    odzial: 'Galeria Ostrovia'
-  },
-  {
-    city: 'Pabianice',
-    name: 'HELIOS',
-    odzial: 'Galeria Tkalnia'
-  },
-  {
-    city: 'Piotrków Trybunalski',
-    name: 'HELIOS',
-    odzial: 'Focus Mall'
-  },
-  {
-    city: 'Płock',
-    name: 'HELIOS',
-    odzial: 'Galeria Wisła'
-  },
-  {
-    city: 'Poznań',
-    name: 'HELIOS',
-    odzial: 'Galeria Posnania'
-  },
-  {
-    city: 'Przemysl',
-    name: 'HELIOS',
-    odzial: 'Galeria Sanowa '
-  },
-  {
-    city: 'Radom',
-    name: 'HELIOS',
-    odzial: 'Radom'
-  },
-  {
-    city: 'Rzeszów',
-    name: 'HELIOS',
-    odzial: 'Rzeszów'
-  },
-  {
-    city: 'Rzeszów',
-    name: 'HELIOS',
-    odzial: 'Galeria Rzeszów'
-  },
-  {
-    city: 'Siedlce',
-    name: 'HELIOS',
-    odzial: 'Galeria Siedlce'
-  },
-  {
-    city: 'Sosnowiec',
-    name: 'HELIOS',
-    odzial: 'Sosnowiec'
-  },
-  {
-    city: 'Stalowa Wola',
-    name: 'HELIOS',
-    odzial: 'Galeria VIVO'
-  },
-  {
-    city: 'Starachowice',
-    name: 'HELIOS',
-    odzial: 'Centrum Galardia'
-  },
-  {
-    city: 'Szczecin',
-    name: 'HELIOS',
-    odzial: 'DK Kupiec'
-  },
-  {
-    city: 'Szczecin',
-    name: 'HELIOS',
-    odzial: 'Outlet Park'
-  },
-  {
-    city: 'Tczew',
-    name: 'HELIOS',
-    odzial: 'Galeria Koci'
-  },
-  {
-    city: 'Tomaszów Mazowiecki',
-    name: 'HELIOS',
-    odzial: 'Galeria Tomaszów? 4 sale,'
-  },
-  {
-    city: 'Warszawa',
-    name: 'HELIOS',
-    odzial: 'Blue city'
-  },
-  {
-    city: 'Wołomin',
-    name: 'HELIOS',
-    odzial: 'Fabryka Wołomi'
-  },
-  {
-    city: 'Wrocław',
-    name: 'HELIOS',
-    odzial: 'Magnolia Park'
-  },
-  {
-    city: 'Wrocław',
-    name: 'HELIOS',
-    odzial: 'Bielany Wrocła'
-  },
-  {
-    city: 'Gory',
-    name: 'HELIOS',
-    odzial: 'Galeria Wiła'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Sadyba'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Bemowo'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Galeria Mokotów'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Centrum Janki'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Promenada'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Westfield Arkadia'
-  },
-  {
-    city: 'WARSZAWA',
-    name: 'CINEMA city',
-    odzial: 'Białołęka Galeria Północna'
-  },
-  {
-    city: 'KRAKÓW',
-    name: 'CINEMA city',
-    odzial: 'Zakopianka'
-  },
-  {
-    city: 'KRAKÓW',
-    name: 'CINEMA city',
-    odzial: 'Galeria Kazimierz'
-  },
-  {
-    city: 'KRAKÓW',
-    name: 'CINEMA city',
-    odzial: 'Bonarka city Center'
-  },
-  {
-    city: 'POZNAŃ',
-    name: 'CINEMA city',
-    odzial: 'Poznań Plaza'
-  },
-  {
-    city: 'POZNAŃ',
-    name: 'CINEMA city',
-    odzial: 'Kinepolis'
-  },
-  {
-    city: 'KATOWICE',
-    name: 'CINEMA city',
-    odzial: 'Punkt 44'
-  },
-  {
-    city: 'KATOWICE',
-    name: 'CINEMA city',
-    odzial: 'Wroclavia'
-  },
-  {
-    city: 'LUBLIN',
-    name: 'CINEMA city',
-    odzial: 'LUBLIN PLAZA'
-  },
-  {
-    city: 'LUBLIN',
-    name: 'CINEMA city',
-    odzial: 'FELIcity'
-  },
-  {
-    city: 'CZĘSTOCHOWA',
-    name: 'CINEMA city',
-    odzial: 'Wolno'
-  },
-  {
-    city: 'CZĘSTOCHOWA',
-    name: 'CINEMA city',
-    odzial: 'Galeria Jurajska'
-  },
-  {
-    city: 'ŁÓDŹ',
-    name: 'CINEMA city',
-    odzial: 'MANUFAKTURA'
-  },
-  {
-    city: 'BYDGOSZCZ',
-    name: 'CINEMA city',
-    odzial: 'Focus Mall'
-  },
-  {
-    city: 'SOSNOWIEC',
-    name: 'CINEMA city',
-    odzial: 'SOSNOWIEC'
-  },
-  {
-    city: 'RYBNIK',
-    name: 'CINEMA city',
-    odzial: 'RYBNIK PLAZA'
-  },
-  {
-    city: 'Cieszyn',
-    name: 'CINEMA city',
-    odzial: 'Cieszyn'
-  },
-  {
-    city: 'Bydgoszcz',
-    name: 'Multikino',
-    odzial: 'Bydgoszcz'
-  },
-  {
-    city: 'Czechowice-Dziedzice',
-    name: 'Multikino',
-    odzial: 'Stara Kablownia'
-  },
-  {
-    city: 'Elbląg',
-    name: 'Multikino',
-    odzial: 'Centrum Handlowe Ogrody'
-  },
-  {
-    city: 'Gdańsk',
-    name: 'Multikino',
-    odzial: 'Gdańsk'
-  },
-  {
-    city: 'Jaworzno',
-    name: 'Multikino',
-    odzial: 'Galeria Galena'
-  },
-  {
-    city: 'Katowice',
-    name: 'Multikino',
-    odzial: 'Galeria Katowicka'
-  },
-  {
-    city: 'Kielce',
-    name: 'Multikino',
-    odzial: 'Galeria Korona'
-  },
-  {
-    city: 'Koszalin',
-    name: 'Multikino',
-    odzial: 'Atrium Koszalin'
-  },
-  {
-    city: 'Kraków',
-    name: 'Multikino',
-    odzial: 'Kraków'
-  },
-  {
-    city: 'Lublin',
-    name: 'Multikino',
-    odzial: 'Galeria Olimp'
+    city: "Lublin",
+    lat: 51.25,
+   lng: 22.5666700
   }
 ]
 

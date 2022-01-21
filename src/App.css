@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -48,4 +49,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.map{
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+}
+.block{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.images{
+
+  width: 30px;
+  height: 30px;
 }
